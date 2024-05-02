@@ -5,8 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this case Ill focus on using a specific notation to introduce combinations of operations with languages. The general idea is to design a calculator
-for formal languages.
+In this case Ill focus on using a specific notation to introduce combinations of operations with languages. The general idea of the program is the design of a formal language calculator.
 Given a few,
 input languages ​​and a specification of operations with said languages, execute the
 corresponding operations and write the results obtained on the screen. The execution
