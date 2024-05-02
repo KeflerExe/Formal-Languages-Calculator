@@ -34,7 +34,7 @@ For each specification of a language, we will have a line that includes, in
 first, the language identifier, followed by an equal and then braces, and
 separated by commas, the different strings that make up the language.
 
-On the other hand, to specify the operations between languages ​​we will use
+On the other hand, to specify the operations between languages at the end of the file ​​we will use
 reverse polish notation. 
 
 Theres 6 operations implemented each one with its own operator:
