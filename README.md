@@ -10,7 +10,10 @@ Given a few,
 input languages ​​and a specification of operations with said languages, execute the
 corresponding operations and write the results obtained on the screen. The execution
 of the program in the command line  should look like this:
-1 ./calculator filein.txt
+
+```
+./calculator filein.txt
+```
 
 An example of an input file could be
 be the following:
