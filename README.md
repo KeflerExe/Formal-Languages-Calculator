@@ -35,7 +35,7 @@ separated by commas, the different strings that make up the language.
 On the other hand, to specify the operations between languages ​​we will use
 reverse polish notation. 
 
-Theres 6 operations implemented:
+Theres 6 operations implemented each one with its own operator:
 
 1. **Concatenation** +
 2. **Union** |
