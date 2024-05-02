@@ -1,0 +1,15 @@
+pepe1 = {0, 1, 01, 10}
+L2 = {&, 10, 11}
+L3 = {&}
+L4 = {}
+L5 = {abc, cab, aab}
+pepe1 L2 ! | L3 +
+L2 L3 ^ pepe1 L2 ^ + L2 2 * +
+L5 ! L2 |
+L5 L2 + L5 ^ 
+pepe1 L2 -
+pepe1 L5 | L2 + 
+pepe1 L5 | L2 + L4 +
+L5 L4 +
+L5 L3 +
+L2 2 *
