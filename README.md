@@ -5,7 +5,44 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+In this case Ill focus on using a specific notation to introduce combinations of operations with languages. The general idea is to design a calculator
+for formal languages.
+Given a few,
+input languages ​​and a specification of operations with said languages, execute the
+corresponding operations and write the results obtained on the screen. The execution
+of the program in the command line  should look like this:
+1 ./calculator filein.txt
 
+An example of an input file could be
+be the following:
+
+L1 = {0, 1, 01, 10}
+
+L2 = {&, 10, 11}
+
+L3 = {&}
+
+L4 = {}
+
+L1 L2 | L3+
+
+L2 L3 ^ L1 L2 ^ +
+
+For each specification of a language, we will have a line that includes, in
+first, the language identifier, followed by an equal and then braces, and
+separated by commas, the different strings that make up the language.
+
+On the other hand, to specify the operations between languages ​​we will use
+reverse polish notation. 
+
+Theres 6 operations implemented:
+
+1. **Concatenation** +
+2. **Union** |
+3. **Intersection** ∧ 
+4. **Difference** − 
+5. **Reverse** !
+6. **Power** ∗ 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
